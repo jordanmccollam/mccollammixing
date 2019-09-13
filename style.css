@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.my-font {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+/* ANCHOR Navbar */
+nav {
+    background: #00000050;
+}
+
+/* ANCHOR Home */
+.overlay {
+    background: #00000050;
+    min-height: 768px;
+}
+
+#home-page {
+    background: url(Images/desk-new.jpg) no-repeat bottom;
+    background-attachment: fixed;
+    /* background: url(Images/studio-bg.JPG) no-repeat; */
+    font-size: 23px;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 180px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+/* ANCHOR Reviews */
+#review-page {
+    background: url(Images/studio-bg.JPG) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-black-opacity {
+    background: #00000090;
+}
+
+/* ANCHOR Samples */
+.carousel img {
+    width: 100%;
+}
+/* #sample-page {
+    max-height: 659.5px;
+} */
+.texture {
+    background: url(Images/record.png) center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+/* ANCHOR Contact */
+#contact-page {
+    background: url(Images/contact.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+#contact-page h1 {
+    font-size: 30px;
+}
+#bio-image {
+    width: 300px;
+}
+.small-font {
+    font-size: 13px;
+}
