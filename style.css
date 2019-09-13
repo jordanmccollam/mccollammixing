@@ -1,15 +1,30 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    width: 100%;
+    height: 100%;
+}
 
 .my-font {
     font-family: 'Lexend Zetta', sans-serif;
 }
 
+
+
+
+
 /* ANCHOR Navbar */
 nav {
     background: #00000050;
 }
+.navbar-brand {
+    font-size: 15px;
+}
+
+
+
+
 
 /* ANCHOR Home */
 .overlay {
@@ -31,6 +46,8 @@ h1 {
     letter-spacing: 10px;
 }
 
+
+
 /* ANCHOR Reviews */
 #review-page {
     background: url(Images/studio-bg.JPG) no-repeat;
@@ -42,13 +59,13 @@ h1 {
     background: #00000090;
 }
 
+
+
+
 /* ANCHOR Samples */
 .carousel img {
     width: 100%;
 }
-/* #sample-page {
-    max-height: 659.5px;
-} */
 .texture {
     background: url(Images/record.png) center;
     background-attachment: fixed;
@@ -59,6 +76,9 @@ h1 {
     width: 80px !important;
     height: 80px !important;
 }
+
+
+
 
 /* ANCHOR Contact */
 #contact-page {
