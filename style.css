@@ -65,7 +65,7 @@ h1 {
 /* ANCHOR Samples */
 .carousel img {
     width: 100%;
-    height: 644px;
+    max-height: 644px;
 }
 .texture {
     background: url(Images/record.png) center;
